@@ -1,3 +1,4 @@
-* Build container `docker build -t clojure-sicp .`
-* Run container `docker run -it --rm --name running-sicp-clj-app -v "$PWD"/src:/usr/app/src clojure-sicp`
-* Execute `.clj` files inside container `lein exec filename.clj`
+## Setup
+1. Build container `make build`
+2. Run container `make exec`
+3. Execute `.clj` files inside container: `lein exec hello-world.clj`

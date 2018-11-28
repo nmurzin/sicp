@@ -1,7 +1,7 @@
-(defproject sicp-tasks "0.0.1"
+(defproject sicp-tasks "0.0.2"
   :description
   "Solutions for tasks from Structure and Interpretation of Computer Programs"
-  :url "https://github.com"
+  :url "https://github.com/nmurzin/sicp"
   :license
   {:name "Eclipse Public License"
    :url  "http://www.eclipse.org/legal/epl-v10.html"}
