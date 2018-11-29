@@ -3,7 +3,9 @@
 
 
 ; 1.3
-; I think here we can use max operator
-; (max a b c)
-(defn sum-of-squares [a, b, c]
-  ())
+(defn square [a] (* a a))
+
+(defn sum-of-squares [a b c]
+  (println (+ (square (max a b)) (square (max b c)))))
+
+(sum-of-squares 3 2 4) ; 25
